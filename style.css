@@ -58,6 +58,7 @@ h3 {
 ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     padding: 8px;
 }
 
