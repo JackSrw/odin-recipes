@@ -9,6 +9,7 @@ html {
 }
 
 * {
+    line-height: 1.5;
     margin: 0px;
     padding: 0px;
     margin-bottom: 8px;
@@ -16,23 +17,38 @@ html {
 }
 
 body {
-    width: 500px;
+    max-width: 600px;
     margin: 16px auto;
 }
 
 .body {
     background-color: #f0f0f0;
-    text-align: center;
 }
 
 .content {
     margin: 24px;
 }
 
-.title {
+.title,
+.descr,
+.ingr,
+.steps,
+h3 {
     text-align: center;
+    font-size: 2.5em;
+}
+
+.title {
     font-size: 64px;
     padding: 8px;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 ul {
@@ -42,7 +58,7 @@ ul {
 }
 
 li {
-    margin: 8px auto;
+    margin: auto;
 }
 
 a {
@@ -62,7 +78,21 @@ a:hover {
     color: #00f
 }
 
-img {
-    display: block;
-    margin: auto;
+.home {
+    display: inline;
+    position: relative;
+    left: 90%;
+    top: 20px;
+}
+
+.ingr_sub {
+    background-color: #aaf9;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.ingr_sub li{
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
 }
