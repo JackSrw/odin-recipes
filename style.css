@@ -8,7 +8,7 @@ html {
     box-sizing: border-box;
 }
 
-* {
+body * {
     line-height: 1.5;
     margin: 0px;
     padding: 0px;
@@ -23,6 +23,8 @@ body {
 
 .body {
     background-color: #f0f0f0;
+    border: 2px solid darkblue;
+    border-radius: 20px;
 }
 
 .content {
@@ -44,7 +46,9 @@ h3 {
 }
 
 img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3 {
